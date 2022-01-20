@@ -61,7 +61,7 @@ header{
    height: 70%;
    object-fit: cover;
 }
-header p{
+header p, nav ul{
    font-size: 18px;
    color: #E5E7EB;
 }
@@ -145,4 +145,20 @@ footer{
    display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+button{
+   background-color:  #3882F6;
+  border: 1px solid white;
+  border-radius: 8px;
+  color: white;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+header button{
+   border: none;
 }
